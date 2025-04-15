@@ -1,0 +1,40 @@
+.categorias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.lista-categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.categoria {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.categoria:hover {
+    background-color: #f0f0f0;
+}
+
+.categoria.selecionada {
+    background-color: #002F52;
+    color: white;
+    border-color: #002F52;
+}
+
+.livros-categoria {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 30px;
+} 

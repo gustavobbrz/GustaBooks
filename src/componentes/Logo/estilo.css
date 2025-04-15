@@ -1,0 +1,17 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+}
+
+.logo p {
+    font-size: 1.5rem;
+    margin: 0;
+}

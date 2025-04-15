@@ -1,0 +1,109 @@
+.livros-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.livros-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #002F52;
+}
+
+.livros-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.livro-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.livro-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.livro-imagem {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.livro-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.livro-card:hover .livro-imagem img {
+    transform: scale(1.05);
+}
+
+.favorito-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.favorito-btn:hover {
+    transform: scale(1.1);
+}
+
+.livro-info {
+    padding: 15px;
+}
+
+.livro-info h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.livro-info p {
+    margin: 0 0 5px 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.preco {
+    font-weight: bold;
+    color: #002F52 !important;
+    font-size: 1.2rem !important;
+    margin: 10px 0 !important;
+}
+
+.comprar-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #002F52;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.comprar-btn:hover {
+    background-color: #004a7a;
+} 

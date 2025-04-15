@@ -1,3 +1,66 @@
+# GustaBooks 📚
+
+GustaBooks é uma plataforma moderna de livros digitais desenvolvida com React, oferecendo uma experiência de usuário intuitiva e elegante para explorar, comprar e gerenciar sua biblioteca digital.
+
+## 🚀 Funcionalidades
+
+- **Catálogo Dinâmico**: Explore milhares de livros organizados por categorias
+- **Sistema de Categorias**: Navegação intuitiva por gêneros literários
+- **Interface Responsiva**: Design adaptável para todos os dispositivos
+- **Animações Suaves**: Experiência visual agradável com transições e efeitos
+- **Tema Personalizado**: Design moderno com esquema de cores profissional
+
+## 🛠️ Tecnologias Utilizadas
+
+- React.js
+- Styled Components
+- Framer Motion
+- React Router
+- React Icons
+
+## 🎨 Design
+
+O projeto utiliza um design moderno e minimalista com:
+- Gradiente de cores profissional
+- Cards com efeito de vidro (glassmorphism)
+- Animações suaves
+- Tipografia clara e legível
+- Layout responsivo
+
+## 📱 Páginas
+
+- **Home**: Página inicial com destaque para livros em evidência
+- **Catálogo**: Lista completa de livros com filtros
+- **Categorias**: Navegação por gêneros literários
+- **Minha Estante**: Gerenciamento de livros comprados
+
+## 🚀 Como Executar
+
+1. Clone o repositório
+```bash
+git clone git@github.com:gustavobbrz/GustaBooks.git
+```
+
+2. Instale as dependências
+```bash
+cd GustaBooks
+npm install
+```
+
+3. Execute o projeto
+```bash
+npm start
+```
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👤 Autor
+
+Gustavo Barbosa
+- GitHub: [@gustavobbrz](https://github.com/gustavobbrz)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
