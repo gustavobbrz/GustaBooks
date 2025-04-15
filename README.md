@@ -10,6 +10,24 @@ GustaBooks é uma plataforma moderna de livros digitais desenvolvida com React, 
 - **Animações Suaves**: Experiência visual agradável com transições e efeitos
 - **Tema Personalizado**: Design moderno com esquema de cores profissional
 
+## 🖼️ Screenshots
+
+### Página Inicial
+![Página Inicial](screenshots/inicio.png)
+*A página inicial apresenta um banner destacado e cards de livros em evidência*
+
+### Catálogo
+![Catálogo](screenshots/catalogo.png)
+*O catálogo oferece uma visualização completa dos livros disponíveis com filtros*
+
+### Categorias
+![Categorias](screenshots/categorias.png)
+*Navegação intuitiva por categorias com cards interativos*
+
+### Sobre
+![Sobre](screenshots/sobre.png)
+*Página de informações sobre o projeto*
+
 ## 🛠️ Tecnologias Utilizadas
 
 - React.js
@@ -32,7 +50,7 @@ O projeto utiliza um design moderno e minimalista com:
 - **Home**: Página inicial com destaque para livros em evidência
 - **Catálogo**: Lista completa de livros com filtros
 - **Categorias**: Navegação por gêneros literários
-- **Minha Estante**: Gerenciamento de livros comprados
+- **Sobre**: Informações sobre o projeto
 
 ## 🚀 Como Executar
 
