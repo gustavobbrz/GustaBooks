@@ -76,7 +76,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👤 Autor
 
-Gustavo Barbosa
+Gustavo B Brizolla
 - GitHub: [@gustavobbrz](https://github.com/gustavobbrz)
 
 # Getting Started with Create React App
